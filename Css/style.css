@@ -1,0 +1,75 @@
+/* ==================== Common css ======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+img,
+li,
+ul,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+/* ==================== Common css ======================= */
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+.bigPic {
+  position: absolute;
+  top: -340px;
+  right: -552px;
+  z-index: -1;
+}
+
+#frontPart {
+  padding: 140px 0px;
+}
+
+.frontPart__heading {
+  font-size: 34px;
+  font-weight: 600;
+  max-width: 434px;
+}
+
+.frontPart__summary {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.middlePart p {
+  font-size: 16px;
+}
+
+.frontPart__bottom {
+  background-color: whitesmoke;
+  padding: 20px 20px;
+}
+
+.frontPartBottom__icon {
+  font-size: 30px;
+}
